@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Breaking Bad Final</title>
+	<link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+	<nav>
+		<ul class="topnav" id="dropdownclick">
+			<li><a href="#home">Home</a> </li>
+			<li><a href="#News">News</a> </li>
+			<li><a href="#Contact">Contact</a> </li>
+			<li><a href="#About">About</a> </li>
+			<li class="topnav-right"><a href="#Signup">Sign Up</a> </li>
+			<li class="topnav-right"><a href="#Signin">Sign in</a> </li>
+			<li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a> </li>
+						
+		</ul>		
+	</nav>
+	
+	<div class="container" id="section-1-gradient">
+		<div class="row">
+			<div class="col-6 ">
+				<div class="leftside-col">
+					<h1 class="large"> Crazy Radness</h1>
+					<h1 class="large"> Made for Devslopers</h1>
+				</div>
+				<form>
+					<div class="leftside-col">
+						<h2> Username</h2>
+						<input class="inputbox" name="username" type="text" placeholder="Username"> 
+						<h2> Password</h2>
+						<input class="inputbox" name="password" type="text" placeholder="Password"> 
+					</div>
+				</form>
+			</div>
+			<div class="col-6">
+				<div class="rightside-col">
+					<div class="videocontainer">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/a0lZ5klXaAw"  frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	<header>
+		<h1>The Standards Of Awesomeness</h1>
+	</header>
+	
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<script>
+		function dropdownMenu() {
+			var x = document.getElementById("dropdownclick");
+			if (x.className === "topnav") {
+				x.className += "responsive";
+			} else {
+				x.className = "topnav"
+			}
+		}
+	</script>
+</body>
+</html>
